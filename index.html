@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <header class="navbar">
+    <nav>
+      <ul>
+        <li><a href="./pages/homepage/homepage.html">Home</a></li>
+        <li><a href="./index.html">Login</a></li>
+        <li><a href="./pages/about/about.html">About</a></li>
+      </ul>
+    </nav>
+  </header>
+  <body>
+    <h2>Login</h2>
+    <div class="login--container">
+      <form class="login-form">
+        <div class="login-input--container">
+          <label for="email">Email</label>
+
+          <input
+            class="login-input"
+            id="email"
+            type="email"
+            placeholder="Type your email"
+          />
+        </div>
+        <div class="login-input--container">
+          <label for="password">Password</label>
+          <input
+            class="login-input"
+            id="password"
+            type="password"
+            placeholder="Type your password"
+          />
+        </div>
+      </form>
+      <a href="./pages/homepage/homepage.html"
+        ><button class="login-button" type="submit">Submit</button></a
+      >
+      <a href="./pages/register/register.html">Register</a>
+    </div>
+  </body>
+  <footer class="footer">
+    <p>Alexis Brunetti</p>
+  </footer>
+</html>
